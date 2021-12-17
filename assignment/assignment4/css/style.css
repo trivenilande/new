@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(61, 151, 151);
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+    
+ 
+   
+
+td, th {
+    border: 1px solid rgb(119, 68, 68);
+    padding: 10px 20px;
+}

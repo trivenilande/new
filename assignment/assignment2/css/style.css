@@ -1,0 +1,135 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: grey;
+  }
+  
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+ 
+  
+ 
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+  }
+  
+  p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  
+ 
+header{
+    margin:0;
+    height:200px;
+    background-color: rgb(61, 209, 98);
+}
+.logo{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+
+
+#header-container{
+width:100%;
+
+}
+.menu li{
+    display:inline;
+    padding-right: 40px;
+    
+}
+
+.menu{
+    font-weight: bold  ;
+    color: black;
+    list-style-type: none;
+    background-color:rgba(34, 235, 34, 0.5);  
+    margin: 50px 20px 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.col-3{
+    text-align: center;
+ }
+ 
+ #wel{
+    flex: 4;
+    padding: 1%;   
+    flex: 5;
+    text-transform: uppercase;
+
+}
+  main, header, nav, article, aside, footer, section {
+    background-color: rgba(34, 235, 34, 0.5);
+    padding: 1%;
+  }
+  
+  
+  
+  main {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  article, section {
+    flex: 4;
+    padding:10px 10px 10px 10px ;
+  }
+  section{
+    padding:10px 40px 10px 40px ;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+    padding:10px 70px 10px 70px ;
+    
+  }
+  
+  aside a {
+    display: block;
+    float: left;
+    width: 50%;
+    
+  }
+  
+  aside img {
+    max-width: 100%;
+  }
+  
+
+
+
+  
+   footer  {
+    
+    padding:10px 100px 10px 100px ;
+
+}

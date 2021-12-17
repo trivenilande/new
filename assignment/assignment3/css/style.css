@@ -1,0 +1,46 @@
+article{
+    padding: 20px;
+    background-color: grey;
+    
+}
+
+ p, h2 {
+
+    float: right;
+    padding-right: 500px;
+    
+
+}
+p{
+    float: right;
+    padding-right: 8px;
+    padding-left: 400px;
+    margin-top: -100px;
+}
+
+img{
+    float: right;
+ 
+}
+div {
+    float:left;
+    
+
+    background-color: rgb(230, 80, 80);
+        
+    }
+.further-info{
+    padding-left: 20px;
+    align-content: center;
+}
+
+picture{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    border-image-repeat: space;
+}
+.panda{
+    display: block;
+        max-width: 100%;
+}
